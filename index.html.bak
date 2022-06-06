@@ -59,7 +59,7 @@
         </section>
         <section class="info-section info-section--no-border">
           <h3 class="info-section__heading">Links</h3>
-          <a href="https://github.com/crossdot" target="_blank" class="info-section__link">
+          <a href="https://github.com/DeTovelli" target="_blank" class="info-section__link">
             <i class="info-section__icon fab fa-github" aria-hidden="true"></i>
             <span class="underline-on-link-hover">GitHub</span>
           </a>
