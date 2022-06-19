@@ -178,10 +178,12 @@
             </p>
           </div>
         </section>
-        <section class="info-section" style="display: none;">
+        <section class="info-section">
           <h3 class="info-section__heading">Profile</h3>
           <div class="info-section__text info-section__text--long">
-            <p>I think of technologies and programming like as art. I like beuty architecture decisions and feel difference between good code and code which need refactoring.</p>
+            <p>My research interests include near-Earth asteroid orbital dynamics, resonant mechanisms that their overlapping results in chaotization of the motion of asteroids, near-Earth object population modeling, characterization of objects of interest for various groups of researchers, and the asteroid impact hazard threat and possible mitigation techniques.</p>
+			<p>I have extensive experience researching, preparing the formation of organizational models: description of business processes, roles, authorizations and dentifying new implementation needs in product by the company and upgrade the current ones, as well as a strong background in the celestial mechanics, with a special interest in the field of chaotization of the motion of asteroids. I am quite familiar with qualitative and quantitative data collection techniques and would greatly enjoy assisting your company in incorporating this knowledge into specific research initiatives as appropriate.</p>
+			<p>I think of technologies and programming like as art. I like beuty architecture decisions and feel difference between good code and code which need refactoring.</p>
             <p>I like self-documented code. Knowledge is power, experience is the way to knowledge.</p>
             <p>I think every tool must have a usecase and vise versa. So when I choose some library I think about what problem I want to solve.</p>
             <p>I read specifications and source code of used libraries to understand deeper technologies I use. I have a good grasp of HTML and CSS applied to application redesign.</p>
@@ -276,10 +278,12 @@
             </div>
             <p class="info-section__text"><b>Bachelor of Computer Science</b>, Information System, 4.73</p>
             <p><b>Dissertation:</b> Determination of the geoid. Comparison of geoid PZ-90, PZ-90.02 and EGM08</p>
-            <p>My thesis was about reactive programming paradigms in the web and its implementations.</p>
-          </section>
+            </section>
       </div>
     </main>
+	
+	<! <script src="scripts/main.js">> 
+	<! </script> >
 </body>
 
 </html>
