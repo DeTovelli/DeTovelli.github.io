@@ -232,16 +232,18 @@
             </div>
           </section>
           <section class="info-section__group">
-            <h4 class="info-section__sub-heading">Fronend developer @ Cis WTO</h4>
+            <h4 class="info-section__sub-heading">Computer Technician @ Tomsk State University</h4>
             <div class="info-section__time">
-              <time class="info-section__date">Nov 2008</time>
+              <time class="info-section__date">Mar 2011</time>
               <span> &ndash; </span>
-              <time class="info-section__date">Aug 2011</time>,
-              <span class="info-section__duration" aria-label="Duration of employment">3 yr 5 mos</span>
+              <time class="info-section__date">Jun 2015</time>,
+              <span class="info-section__duration" aria-label="Duration of employment">4 yr 4 mos</span>
             </div>
             <div class="info-section__text info-section__text--long">
               <ul>
-                <li>Developed a lot of stuff for EGov</li>
+                <li>Help users with office equipment and computers</li>
+				<li>Work with conference equipment </li>
+				<li>Work with multimedia audiences, management of different presentation schemes, audio tracks</li>
               </ul>
             </div>
           </section>
