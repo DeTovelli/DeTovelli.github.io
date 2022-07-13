@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Georgy Sambarov, Junior Full stack developer">
-    <meta name="description" content="Georgy Sambarov, Junior Full stack developer">
-    <title>Georgy Sambarov, Full stack developer</title>
+    <meta name="keywords" content="Georgy Sambarov, Junior JavaScript Developer">
+    <meta name="description" content="Georgy Sambarov, Junior JavaScript Developer">
+    <title>Georgy Sambarov, Junior JavaScript Developer</title>
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png"><!-- 180?180 -->
@@ -31,10 +31,10 @@
       <header class="title dot-spacing">
         <div class="title__credentials">
           <h1 class="title__name">Georgy<br/>Sambarov</h1>
-          <h2 class="title__position">Junior Full Stack Developer</h2>
+          <h2 class="title__position">Junior JavaScript Developer</h2>
         </div>
         <div class="title__avatar">
-          <img src="img/avatar.jpg" alt="Georgy Sambarov, Junior Full Stack Developer">
+          <img src="img/avatar.jpg" alt="Georgy Sambarov, Junior JavaScript Developer">
         </div>
       </header>
       <div class="general-info">
@@ -67,7 +67,7 @@
             <i class="info-section__icon fab fa-linkedin" aria-hidden="true"></i>
             <span class="underline-on-link-hover">LinkedIn</span>
           </a>
-          <a href="./public/cv_Georgy_Sambarov.pdf" download="Georgy Sambarov, Junior Full Stack Developer" target="_blank" class="info-section__link hide-on-print">
+          <a href="./public/cv_Georgy_Sambarov.pdf" download="Georgy Sambarov, Junior JavaScript Developer" target="_blank" class="info-section__link hide-on-print">
             <i class="info-section__icon fa fa-download" aria-hidden="true"></i>
             <span class="underline-on-link-hover">Download CV</span>
           </a>
@@ -87,44 +87,26 @@
           <h3 class="info-section__heading">Skills</h3>
           <h4 class="info-section__sub-heading">Experienced</h4>
           <ul class="info-section__list">
-            <li>Docker</li>
-            <li>Bash</li>
-            <li>Java</li>
-            <li>Spring</li>
             <li>JavaScript</li>
             <li>Node.js</li>
             <li>CSS 3</li>
             <li>HTML 5</li>
             <li>SCSS, SASS, LESS</li>
-            <li>PHP</li>
-            <li>PostgreSQL</li>
-            <li>Linux</li>
           </ul>
           <h4 class="info-section__sub-heading">Skillful</h4>
           <ul class="info-section__list">
-            <li>Angular</li>
-            <li>React</li>
-            <li>Redux</li>
-            <li>Vue.js</li>
-            <li>Webpack</li>
-            <li>TypeScript</li>
-            <li>Kubernetes</li>
+            <li>JavaScript</li>
             <li>RabbitMQ</li>
-            <li>Kafka</li>
-            <li>Redis, Memcached</li>
-            <li>Nginx</li>
-            <li>Rust</li>
-            <li>GRPC</li>
           </ul>
           <h4 class="info-section__sub-heading">Basic Knowledge</h4>
           <ul class="info-section__list">
-            <li>Go</li>
-            <li>AVR</li>
+            <li>PHP</li>
+            <li>Linux</li>
           </ul>
           <h4 class="info-section__sub-heading">Had experience with</h4>
           <ul class="info-section__list">
-            <li>MongoDB</li>
-            <li>MobX, Baobab</li>
+            <li>Node.js</li>
+            <li>ModX</li>
           </ul>
         </section>
         <section class="info-section info-section--no-border">
@@ -133,7 +115,6 @@
             <li>Reading</li>
             <li>Travelling</li>
             <li>Information Security</li>
-            <li>Microcontroller Programming</li>
           </ul>
         </section>
       </div>
@@ -271,7 +252,7 @@
           <section class="info-section__group">
             <h4 class="info-section__sub-heading">Tomsk State University</h4>
             <div class="info-section__time info-section__time--small-indent">
-              <time class="info-section__date">2009</time>
+              <time class="info-section__date">2018</time>
               <span> &ndash; </span>
               <time class="info-section__date">Mar 2021</time>
             </div>
@@ -284,8 +265,9 @@
               <span> &ndash; </span>
               <time class="info-section__date">Jun 2013</time>
             </div>
-            <p class="info-section__text"><b>Master's Degree</b>, Information System, 4.87</p>
-            <p>My thesis was about reactive programming paradigms in the web and its implementations.</p>
+            <p class="info-section__text"><b>Master's Degree</b>, Information System, 4.85</p>
+            <p><b>Study emphases:</b> probabilistic orbital dynamics of asteroids, systematic errors, least squares method, confidence region and indicators of nonlinearity.</p>
+			<p><b>Dissertation:></b> Method of estimation of force model influence on precision of the building of initial confidence region of probable asteroids motions.</p>
             <h4 class="info-section__sub-heading">Tomsk State University</h4>
             <div class="info-section__time info-section__time--small-indent">
               <time class="info-section__date">Sep 2007</time>
