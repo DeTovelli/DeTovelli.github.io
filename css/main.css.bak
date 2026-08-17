@@ -1,4 +1,3 @@
-/* ... (основные стили из вашего запроса остаются без изменений) ... */
 html {
     --base-font-size: 12px;
     --primary-text-color: #000;
@@ -12,7 +11,6 @@ html {
     font-size: var(--base-font-size);
 }
 
-/* ... */
 body {
     background: var(--secondary-background-color);
     font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
@@ -74,7 +72,6 @@ body {
     object-position: 45%;
     overflow: hidden;
 }
-
 .title__avatar img {
     width: 100%;
     height: 100%;
@@ -83,7 +80,6 @@ body {
     transform: scale(1, 1);
     transition: all 0.3s ease-in-out;
 }
-
 .title__avatar:hover img {
     transform: scale(1.15, 1.15);
     filter: grayscale(0.15) contrast(130%) saturate(120%);
@@ -108,7 +104,7 @@ body {
     padding-top: 0;
 }
 
-.info-section+.info-section {
+.info-section + .info-section {
     border-top: 2px dotted var(--border-color);
 }
 
@@ -131,7 +127,6 @@ body {
     margin-top: .175em;
     transition: width .5s ease-out;
 }
-
 .info-section:hover .info-section__heading:after {
     width: 100%;
 }
@@ -163,7 +158,7 @@ body {
     line-height: 1rem;
 }
 
-.info-section__text+.info-section__text {
+.info-section__text + .info-section__text {
     margin-top: .875rem;
 }
 
@@ -203,7 +198,6 @@ body {
     transition: color .5s ease-out;
     white-space: nowrap;
 }
-
 .info-section__link:hover {
     color: var(--primary-text-color);
 }
@@ -256,11 +250,9 @@ button:hover .underline-on-link-hover {
     html {
         --base-font-size: 14px;
     }
-
     .dot-spacing::after {
         display: none;
     }
-
     .title {
         display: flex;
         text-align: left;
@@ -274,7 +266,6 @@ button:hover .underline-on-link-hover {
         width: 150px;
         height: 150px;
     }
-
     .info-section {
         margin: 38px 0;
         padding-top: 38px;
@@ -286,7 +277,6 @@ button:hover .underline-on-link-hover {
     html {
         --base-font-size: 16px;
     }
-
     .container {
         grid-template-columns: minmax(200px, 35%) minmax(300px, 75%);
         grid-template-areas:
@@ -294,34 +284,28 @@ button:hover .underline-on-link-hover {
             "general-info experience-info";
         padding: 45px 65px;
     }
-
     .info-section__list {
         margin: .5rem 0 1rem 0;
         padding-left: 1rem;
     }
-
     .info-section__list li {
         display: list-item;
         border: none;
         margin: .25rem;
     }
-
     .title__name {
         text-transform: uppercase;
     }
-
     .general-info {
         padding: 38px 38px 0 0;
         border-top: 2px dotted var(--border-color);
         border-right: 2px dotted var(--border-color);
         box-sizing: border-box;
     }
-
-    .info-section+.info-section--no-border {
+    .info-section + .info-section--no-border {
         padding-top: 0;
         border: unset;
     }
-
     .experience-info {
         border-top: 2px dotted var(--border-color);
         padding: 38px 0 0 38px;
@@ -334,7 +318,6 @@ button:hover .underline-on-link-hover {
         border-radius: 6px;
         margin: 50px auto 80px;
     }
-
     .info-section--no-border {
         margin-bottom: 56px;
     }
@@ -346,111 +329,99 @@ button:hover .underline-on-link-hover {
     }
 }
 
-/* Базовое состояние: открытый аккордеон */
-.accordion__body {
-  display: block;
-  overflow: hidden;
-  transition: all 0.3s ease-in-out;
-}
-
-/* Класс collapse скрывает контент */
-.accordion__body.collapse {
-  display: none;
-}
-
-/* Стилизация заголовка как кликабельного элемента */
-.accordion__header {
-  cursor: pointer;
-  user-select: none; /* Запрещаем выделение текста при частых кликах */
-}
-
-/* Иконка-индикатор (стрелочка) рядом с заголовком (опционально) */
-.accordion__header::before {
-  content: '▼ ';
-  font-size: 0.8rem;
-  display: inline-block;
-  transition: transform 0.2s ease;
-  margin-right: 5px;
-  vertical-align: middle;
-}
-
-/* Поворачиваем стрелочку, когда аккордеон закрыт */
-.accordion__header.accordion__header--active::before {
-  transform: rotate(-90deg);
-}
-
-
-/* Оптимизированные и полностью закрытые стили для печати */
 @media print {
     @page {
+        margin: 1.2cm .5cm 1.6cm;
         size: A4;
-        margin: 15mm 10mm 15mm 15mm;
     }
 
-    html,
-    body {
-        width: 100% !important;
-        height: auto !important;
-        background: #fff !important;
-        color: #000 !important;
-        font-size: 11pt !important;
-    }
-
-    body {
+    html {
+        font-size: 12pt;
         -webkit-print-color-adjust: exact;
         print-color-adjust: exact;
     }
 
+    html, body {
+        width: 270mm;
+        height: 297mm;
+    }
+
+    body {
+        background: var(--primary-background-color);
+    }
+
     .container {
-        display: grid !important;
-        grid-template-columns: 32% 68% !important;
-        grid-template-areas:
-            "title title"
-            "general-info experience-info" !important;
-        padding: 0 !important;
-        margin: 0 !important;
-        box-shadow: none !important;
-        max-width: 100% !important;
-    }
-
-    .general-info {
-        padding: 20px 20px 0 0 !important;
-        border-top: 1px dotted #d8d8d8 !important;
-        border-right: 1px dotted #d8d8d8 !important;
-    }
-
-    .experience-info {
-        padding: 20px 0 0 20px !important;
-        border-top: 1px dotted #d8d8d8 !important;
-    }
-
-    .title__position {
-        display: block !important;
-        margin-top: 8px !important;
-        color: #494949 !important;
+        display: block;
+        box-shadow: unset;
     }
 
     .info-section__heading:after {
+        display: none;
+    }
+
+    a[href^="http"]:after {
+        content: " ("attr(href) ")";
+    }
+
+    .hide-on-print {
         display: none !important;
     }
 
-    .info-section__link {
-        margin-bottom: 0.5rem !important;
-        color: #000 !important;
-    }
+ /*--ACCORDION--*/
+ .accordion__item {
+    margin-bottom: 0.5rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 15%);
+  }
 
-    .info-section__link .underline-on-link-hover {
-        text-decoration: none !important;
-    }
+  .accordion__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    color: #fff;
+    font-weight: 500;
+    background-color: #0d6efd;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-out;
+  }
 
-    .info-section {
-        page-break-inside: avoid;
-        break-inside: avoid;
-    }
+  .accordion__header::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    content: "";
+    transition: transform 0.2s ease-out;
+  }
 
-    .hide-on-print,
-    button,
-    .dot-spacing::after {
-        display: none !important;
-    }
+  .accordion__item_show .accordion__header::after,
+  .accordion__item_slidedown .accordion__header::after {
+    transform: rotate(-180deg);
+  }
+
+  .accordion__header:hover {
+    background-color: #0b5ed7;
+  }
+
+  .accordion__item:not(.accordion__item_show) .accordion__header {
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+  }
+
+  .accordion__content {
+    padding: 0.75rem 1rem;
+    background: #fff;
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+  }
+
+  .accordion__item:not(.accordion__item_show) .accordion__body {
+    display: none;
+  }   
 }

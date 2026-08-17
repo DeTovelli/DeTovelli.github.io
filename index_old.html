@@ -3,13 +3,14 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="Georgy Sambarov">
   <meta name="description" content="Georgy Sambarov">
   <title>Georgy Sambarov</title>
 
   <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png"><!-- 180?180 -->
   <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
   <link rel="manifest" href="./site.webmanifest">
@@ -23,7 +24,6 @@
   <!-- Main -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
   <link rel="stylesheet" href="./css/main.css" />
-  
   <!-- Yandex.Metrika counter -->
   <script type="text/javascript">
     (function (m, e, t, r, i, k, a) {
@@ -32,7 +32,7 @@
       for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) {return;} }
       k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
     })
-    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
     ym(96335607, "init", {
       clickmap: true,
@@ -46,15 +46,14 @@
     <div><img src="https://mc.yandex.ru/watch/96335607" style="position:absolute; left:-9999px;" alt="" /></div>
   </noscript>
   <!-- /Yandex.Metrika counter -->
-  
   <!-- Varioqub experiments -->
   <script type="text/javascript">
     (function (e, x, pe, r, i, me, nt) {
       e[i] = e[i] || function () {(e[i].a = e[i].a || []).push(arguments)},
         me = x.createElement(pe), me.async = 1, me.src = r, nt = x.getElementsByTagName(pe)[0], nt.parentNode.insertBefore(me, nt)
     })
-    (window, document, 'script', 'https://abt.s3.yandex.net/expjs/latest/exp.js', 'ymab');
-    ymab('metrika.96335607', 'init');
+      (window, document, 'script', 'https://abt.s3.yandex.net/expjs/latest/exp.js', 'ymab');
+    ymab('metrika.96335607', 'init'/*, {clientFeatures}, {callback}*/);
   </script>
 </head>
 
@@ -69,7 +68,6 @@
         <img src="img/avatar.jpg" alt="Georgy Sambarov">
       </div>
     </header>
-    
     <div class="general-info">
       <section class="info-section info-section--no-border">
         <h3 class="info-section__heading">Contacts</h3>
@@ -90,7 +88,6 @@
           <span class="underline-on-link-hover">Saint-Petersburg, Russia</span>
         </a>
       </section>
-      
       <section class="info-section info-section--no-border">
         <h3 class="info-section__heading">Links</h3>
         <a href="https://github.com/DeTovelli" target="_blank" class="info-section__link">
@@ -101,7 +98,8 @@
           <i class="info-section__icon fab fa-linkedin" aria-hidden="true"></i>
           <span class="underline-on-link-hover">LinkedIn</span>
         </a>
-        <a href="https://www.scopus.com/authid/detail.uri?authorId=57194230362" target="_blank" class="info-section__link">
+        <a href="https://www.scopus.com/authid/detail.uri?authorId=57194230362" target="_blank"
+          class="info-section__link">
           <i class="info-section__icon fab fa-scopus" aria-hidden="true"></i>
           <span class="underline-on-link-hover">Scopus</span>
         </a>
@@ -109,20 +107,21 @@
           <i class="info-section__icon fab fa-researchgate" aria-hidden="true"></i>
           <span class="underline-on-link-hover">ResearchGate</span>
         </a>
+
         <a href="https://www.webofscience.com/wos/author/record/K-2607-2017" target="_blank" class="info-section__link">
           <i class="info-section__icon fab fa-webofscience" aria-hidden="true"></i>
           <span class="underline-on-link-hover">WebOfScience</span>
         </a>
-        <a href="./public/cv_Georgy_Sambarov.pdf" download="Georgy Sambarov" target="_blank" class="info-section__link hide-on-print">
+        <a href="./public/cv_Georgy_Sambarov.pdf" download="Georgy Sambarov" target="_blank"
+          class="info-section__link hide-on-print">
           <i class="info-section__icon fa fa-download" aria-hidden="true"></i>
           <span class="underline-on-link-hover">Download CV</span>
         </a>
-        <button onclick="window.print();" class="info-section__link hide-on-print">
+        <button onclick="javascript:window.print();" class="info-section__link hide-on-print">
           <i class="info-section__icon fa fa-print" aria-hidden="true"></i>
           <span class="underline-on-link-hover">Print CV</span>
         </button>
       </section>
-      
       <section class="info-section info-section--no-border">
         <h3 class="info-section__heading">Languages</h3>
         <div class="info-section__text">
@@ -130,11 +129,11 @@
           <p>Russian &ndash; Native</p>
         </div>
       </section>
-      
       <section class="info-section info-section--no-border">
         <h3 class="info-section__heading">Skills</h3>
         <h4 class="info-section__sub-heading">Experienced</h4>
         <ul class="info-section__list">
+          <li>JavaScript</li>
           <li>CSS 3</li>
           <li>HTML 5</li>
           <li>SCSS, SASS, LESS</li>
@@ -155,7 +154,6 @@
           <li>ModX</li>
         </ul>
       </section>
-      
       <section class="info-section info-section--no-border">
         <h3 class="info-section__heading">Hobbies</h3>
         <ul class="info-section__list">
@@ -259,7 +257,8 @@
           </div>
         </div>
       </section>
-      
+    </div>
+
       <section class="info-section" style="display: none;">
         <h3 class="info-section__heading">Profile</h3>
         <div class="info-section__text info-section__text--long">
@@ -581,10 +580,10 @@
 
           </section>
         </section>
-    </div>    
-  </main>
+    
 
-  <script src="./scripts/main.js"></script>
+  </main>
+  <script src="./js/main.js"></script>
 </body>
 
 </html>
